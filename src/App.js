@@ -14,7 +14,7 @@ function App() {
       </Layout.Header>
 
       <Layout.Content>
-        <div>
+        <div style={{marginBottom: '16px'}}>
           <Input placeholder='Add task' />
         </div>
 
