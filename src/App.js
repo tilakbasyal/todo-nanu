@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 // import { Button } from 'antd';
 
 import { Layout, Input} from 'antd';
+import Tasklist from './tasklist';
 
 function App() {
   return (
@@ -14,10 +15,12 @@ function App() {
 
       <Layout.Content>
         <div>
-          <Input placeholder='Enter your task to do.' />
+          <Input placeholder='Add task' />
         </div>
 
-        <div>List of task</div>
+        <div>
+          <Tasklist />
+        </div>
       </Layout.Content>
       
       {/* <Button type="primary">Primary Button</Button> */}
